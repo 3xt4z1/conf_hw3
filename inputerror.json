@@ -1,0 +1,11 @@
+{
+  "constants": {
+    "default_port": 8080,
+    "attempts": 5,
+    "timeout": 100,
+    "delays": [10, 20, 30]
+  },
+  "port": "@(default_port 100 +)",
+  "retry_intervals": "@(delays 0 +)",
+  "max_wait": "@(timeout attempts *)"
+}

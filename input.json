@@ -1,0 +1,10 @@
+{
+  "constants": {
+    "width": 144,
+    "height": 200,
+    "extra": [10, 20, 30],
+    "double_width": 288
+  },
+  "window_size": "@(width height max)",
+  "layout": [50, "@(height 50 -)", [10, "@(double_width 100 +)"]]
+}

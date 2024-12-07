@@ -1,0 +1,6 @@
+const width = 144;
+const height = 200;
+const extra = [10, 20, 30];
+const double_width = 288;
+const window_size = 200;
+const layout = [50, 150, [10, 388]];
